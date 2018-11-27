@@ -10,13 +10,9 @@ $blue:  #0074de;
 
 @include all-nav-sprites;
 
-* { @include selection($blue, white); }
-
 a {
     padding-left: 30px;
     @include link-colors($blue);
     text-decoration: none;
     &:hover { text-decoration: underline;}
-
-    &[href*="vk.com"] { @extend .nav-find50; }
 }

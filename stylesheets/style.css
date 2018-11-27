@@ -1,6 +1,6 @@
-/* line 120, nav/*.png */
-.nav-sprite, .nav-cart50, .nav-enter50, .nav-escape50, .nav-exit50, .nav-find50, a[href*="vk.com"], .nav-logo2big, .nav-logo3big, .nav-logobig, .nav-menu50, .nav-phone50 {
-  background-image: url('../images/nav-s2d5a2f3d28.png');
+/* line 112, nav/*.png */
+.nav-sprite, .nav-cart50, .nav-enter50, .nav-escape50, .nav-exit50, .nav-find50, .nav-logo2_200_109, .nav-logo_485_100, .nav-menu50, .nav-phone50 {
+  background-image: url('../images/nav-s190f6ec969.png');
   background-repeat: no-repeat;
 }
 
@@ -31,53 +31,37 @@
 }
 
 /* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.nav-find50, a[href*="vk.com"] {
+.nav-find50 {
   background-position: 0 -200px;
 }
 
 /* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.nav-logo2big {
+.nav-logo2_200_109 {
   background-position: 0 -250px;
 }
 
 /* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.nav-logo3big {
-  background-position: 0 -656px;
-}
-
-/* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.nav-logobig {
-  background-position: 0 -911px;
+.nav-logo_485_100 {
+  background-position: 0 -359px;
 }
 
 /* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .nav-menu50 {
-  background-position: 0 -1592px;
+  background-position: 0 -459px;
 }
 
 /* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .nav-phone50 {
-  background-position: 0 -1642px;
+  background-position: 0 -509px;
 }
 
-/* line 53, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_selection.scss */
-*::-moz-selection {
-  color: white;
-  background-color: #0074de;
-}
-/* line 53, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_selection.scss */
-*::selection {
-  color: white;
-  background-color: #0074de;
-}
-
-/* line 15, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 a {
   padding-left: 30px;
   color: #0074de;
   text-decoration: none;
 }
-/* line 19, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 a:hover {
   text-decoration: underline;
 }
