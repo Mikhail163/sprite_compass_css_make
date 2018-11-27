@@ -4,12 +4,6 @@
   background-repeat: no-repeat;
 }
 
-/* line 64, logo/*.png */
-.logo-sprite {
-  background-image: url('../images/logo-s89d66fd7b0.png');
-  background-repeat: no-repeat;
-}
-
 /* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .nav-cart26 {
   background-position: 0 0;
@@ -88,15 +82,4 @@
 /* line 84, ../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .nav-phone50 {
   background-position: 0 -691px;
-}
-
-/* line 13, ../sass/style.scss */
-a {
-  padding-left: 30px;
-  color: #0074de;
-  text-decoration: none;
-}
-/* line 17, ../sass/style.scss */
-a:hover {
-  text-decoration: underline;
 }

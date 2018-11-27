@@ -6,13 +6,5 @@ $blue:  #0074de;
 @import "compass/utilities/sprites";
 
 @import "nav/*.png";
-@import "logo/*.png";
 
 @include all-nav-sprites;
-
-a {
-    padding-left: 30px;
-    @include link-colors($blue);
-    text-decoration: none;
-    &:hover { text-decoration: underline;}
-}
