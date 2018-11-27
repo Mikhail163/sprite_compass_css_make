@@ -1,0 +1,22 @@
+$blue:  #0074de;
+
+@import "compass/typography/links";
+@import "compass/css3/selection";
+
+@import "compass/utilities/sprites";
+
+@import "nav/*.png";
+@import "logo/*.png";
+
+@include all-nav-sprites;
+
+* { @include selection($blue, white); }
+
+a {
+    padding-left: 30px;
+    @include link-colors($blue);
+    text-decoration: none;
+    &:hover { text-decoration: underline;}
+
+    &[href*="vk.com"] { @extend .nav-find50; }
+}
