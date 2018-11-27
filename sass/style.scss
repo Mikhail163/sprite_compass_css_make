@@ -6,5 +6,7 @@ $blue:  #0074de;
 @import "compass/utilities/sprites";
 
 @import "nav/*.png";
+@import "logo/*.png";
 
 @include all-nav-sprites;
+@include all-logo-sprites;
